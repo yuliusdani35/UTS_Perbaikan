@@ -1,0 +1,31 @@
+<html>
+	<head>
+      <meta charset="utf-8">
+      <title>Lighting</title>
+	</head>
+	
+	<link rel="stylesheet" href="lighting_css.css">
+	
+<body>
+	
+	<canvas id="canvas"></canvas>
+		<div id="uiContainer">
+			<div id="ui">
+		<div id="fRotation"></div>
+			</div>
+		</div>
+		<!--
+		for most samples webgl-utils only provides shader compiling/linking and
+		canvas resizing because why clutter the examples with code that's the same in every sample.
+		See https://webgl2fundamentals.org/webgl/lessons/webgl-boilerplate.html
+		and https://webgl2fundamentals.org/webgl/lessons/webgl-resizing-the-canvas.html
+		for webgl-utils, m3, m4, and webgl-lessons-ui.
+		-->
+		<script src="https://webgl2fundamentals.org/webgl/resources/webgl-utils.js"></script>
+		<script src="https://webgl2fundamentals.org/webgl/resources/webgl-lessons-ui.js"></script>
+		<script src="https://webgl2fundamentals.org/webgl/resources/m4.js"></script>
+	
+	<script src="lighting_js.js"></script>
+	
+</body>
+</html>
